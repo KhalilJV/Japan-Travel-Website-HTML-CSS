@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JPN Travels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- ================= HEADER / NAV ================= -->
+    <header>
+      <div class="nav-bar">
+        <div class="logo-area">
+          <img src="https://pbs.twimg.com/media/G7IEML1W0AAvAyE?format=jpg&name=large" alt="JPN logo">
+          <span class="logo-text">JPN Travels</span>
+        </div>
+
+        <nav>
+          <!-- data-section matches the section ID below -->
+          <a href="#home"  data-section="home"  class="nav-link active">Home</a>
+          <a href="#tours" data-section="tours" class="nav-link">Tours</a>
+          <a href="#about" data-section="about" class="nav-link">About Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =============== HOME “PAGE” (SECTION) =============== -->
+    <section id="home" class="page-section active">
+      <h1 class="section-title">Discover Japan</h1>
+
+      <p class="intro-text">
+        Book your trip with JPN Travels and explore Japan’s most iconic locations—
+        from neon city streets to peaceful temples and ancient traditions.
+      </p>
+
+      <!-- FEATURED DESTINATIONS -->
+      <h2 class="sub-heading">Featured Destinations</h2>
+
+      <div class="card-row">
+        <article class="card">
+          <img src="https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg" alt="Tokyo">
+          <div class="card-body">
+            <h3>Tokyo</h3>
+            <p>Neon lights, culture, anime, food & nightlife.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg" alt="Mt. Fuji">
+          <div class="card-body">
+            <h3>Mt. Fuji</h3>
+            <p>Beautiful forests, lakes, and Japan’s tallest peak.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.pexels.com/photos/208773/pexels-photo-208773.jpeg" alt="Kyoto">
+          <div class="card-body">
+            <h3>Kyoto</h3>
+            <p>Temples, bamboo forests & traditional history.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- FUN FACTS -->
+      <h2 class="sub-heading">Japan Fun Facts</h2>
+      <ul class="fun-facts">
+        <li>Japan has more than 6,800 islands.</li>
+        <li>Tokyo is the most populated city in the world.</li>
+        <li>Japan has one of the world’s best railway systems.</li>
+        <li>Cherry blossom season usually lasts only two weeks.</li>
+      </ul>
+
+      <!-- PHOTO GALLERY -->
+      <h2 class="sub-heading">Photo Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg" alt="Japanese street">
+        <img src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg" alt="Temple in Japan">
+        <img src="https://images.pexels.com/photos/356288/pexels-photo-356288.jpeg" alt="Japanese garden">
+        <img src="https://explore-live.s3.eu-west-1.amazonaws.com/medialibraries/explore/explore-media/destinations/asia/japan/japan-banner.jpg?ext=.jpg&width=1920&format=webp&quality=80&v=201704211523%201920w" alt="Japan landscape">
+      </div>
+    </section>
+
+    <!-- =============== TOURS “PAGE” (SECTION) =============== -->
+    <section id="tours" class="page-section">
+      <h1 class="section-title">Our Tours</h1>
+
+      <div class="card-row">
+        <article class="card">
+          <img src="https://images.pexels.com/photos/256701/pexels-photo-256701.jpeg" alt="Shibuya">
+          <div class="card-body">
+            <h3>Shibuya Night Tour</h3>
+            <p>Walk through the busiest crossing in the world.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg" alt="Osaka Food">
+          <div class="card-body">
+            <h3>Osaka Food Tour</h3>
+            <p>Street food, neon signs and delicious Japanese treats.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.pexels.com/photos/5735762/pexels-photo-5735762.jpeg" alt="Nara Deer Park">
+          <div class="card-body">
+            <h3>Nara Deer Park</h3>
+            <p>Meet friendly deer & visit a 1,000-year-old temple.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- PRICING TABLE -->
+      <h2 class="sub-heading">Tour Pricing</h2>
+      <table class="price-table">
+        <tr>
+          <th>Tour</th>
+          <th>Duration</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Tokyo Night Tour</td>
+          <td>4 hrs</td>
+          <td>$120</td>
+        </tr>
+        <tr>
+          <td>Osaka Street Food Tour</td>
+          <td>3 hrs</td>
+          <td>$95</td>
+        </tr>
+        <tr>
+          <td>Kyoto Temple Walk</td>
+          <td>6 hrs</td>
+          <td>$180</td>
+        </tr>
+      </table>
+
+      <!-- CONTACT INFO (for booking) -->
+      <h2 class="sub-heading">Book a Custom Tour</h2>
+      <div class="contact-box">
+        <p><strong>Email:</strong> jpntours@gmail.com</p>
+        <p><strong>Phone:</strong> (555) 777-1122</p>
+        <p><strong>Hours:</strong> 9am – 8pm (JST)</p>
+      </div>
+    </section>
+
+    <!-- =============== ABOUT “PAGE” (SECTION) =============== -->
+    <section id="about" class="page-section">
+      <h1 class="section-title">About Us</h1>
+
+      <div class="about-wrapper">
+        <p>
+          We are a Japan Specialized Travel Agency that helps tourists and natives
+          book trips, Airbnbs and hotels all across Japan.
+        </p>
+        <p>
+          We aim to give our customers the best Japan experience with reliable prices,
+          excellent accommodations and expert knowledge of every region.
+        </p>
+      </div>
+
+      <!-- STATS -->
+      <h2 class="sub-heading">Why Choose JPN Travels?</h2>
+      <div class="stats-row">
+        <div class="stat-box">
+          <h3>10+</h3>
+          <p>Years Experience</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>3000+</h3>
+          <p>Travelers Helped</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>40+</h3>
+          <p>Available Tours</p>
+        </div>
+      </div>
+
+      <!-- REVIEWS -->
+      <h2 class="sub-heading">Traveler Reviews</h2>
+      <div class="reviews-row">
+        <article class="review-card">
+          <p>"Amazing service and unforgettable experience!"</p>
+          <span>- Sarah L.</span>
+        </article>
+
+        <article class="review-card">
+          <p>"Best travel agency for Japan. Highly recommend."</p>
+          <span>- Mark R.</span>
+        </article>
+      </div>
+
+      <!-- SIMPLE CONTACT / SOCIALS AREA (like Secondary Page 3) -->
+      <h2 class="sub-heading">Stay Connected</h2>
+      <div class="social-strip">
+        <div class="social-contact">
+          <p><strong>Email:</strong> JPNTravels@gmail.com</p>
+          <p><strong>Call:</strong> 917-423-9654</p>
+        </div>
+        <div class="social-icons">
+          <span>@JPNTRAVELS (Instagram)</span>
+          <span>@JPN_TRAVELS (TikTok)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+      &copy; 2025 JPN Travels – All Rights Reserved.
+    </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ===== JS: make sections behave like separate pages ===== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navLinks  = document.querySelectorAll('.nav-link');
+      const sections  = document.querySelectorAll('.page-section');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const targetId = this.dataset.section;
+
+          // hide all sections
+          sections.forEach(sec => sec.classList.remove('active'));
+
+          // show the clicked section
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            targetSection.classList.add('active');
+          }
+
+          // update nav active state
+          navLinks.forEach(a => a.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
